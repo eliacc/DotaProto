@@ -80,7 +80,8 @@ void SetupStatics()
 int main()
 {
 	CreateConsole();
-
+	SetupStatics();
+	
 	std::cout << "Sending proto" << std::endl;
 
 	CNETMsg_StringCmd test;
